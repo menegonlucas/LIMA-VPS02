@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #031818, #8F6532);
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+header {
+    background: #021212;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8F6532;
+}
+
+section {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #021212;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+}
+
+button[type="submit"] {
+    background: #8F6532;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #5e421f;
+}
+
+footer {
+    background: #021212;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    bottom: 0; /* Posiciona o footer na parte inferior */
+}
+
+.poster {
+    width: 50%;
+    max-width: 700px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 15px;
+}
+
+.sinopse {
+    text-align: center;
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+.production-info {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.streaming-logo {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.actor-image {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+}
